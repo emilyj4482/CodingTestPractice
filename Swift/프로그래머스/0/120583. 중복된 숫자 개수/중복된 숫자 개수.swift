@@ -9,3 +9,8 @@ func solution(_ array:[Int], _ n:Int) -> Int {
     
     return result
 }
+
+// other code 1
+func solution1(_ array:[Int], _ n:Int) -> Int {
+    return array.filter { $0 == n }.count 
+}
