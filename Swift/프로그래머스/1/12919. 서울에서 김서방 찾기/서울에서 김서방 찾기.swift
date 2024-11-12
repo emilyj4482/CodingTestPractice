@@ -4,3 +4,8 @@ func solution(_ seoul:[String]) -> String {
     }
     return ""
 }
+
+// other code 1
+func solution1(_ seoul:[String]) -> String {
+    return "김서방은 \(seoul.firstIndex(of: "Kim")!)에 있다"
+}
